@@ -1,0 +1,22 @@
+.main {
+    background-color: #fff;
+    border-bottom: 1px solid #e6e6e6;
+    height: 60px;
+    width: 100%;
+    z-index: 1;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* space-betweenのgap */
+    padding: 0 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.liall {
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
