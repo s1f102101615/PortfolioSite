@@ -9,7 +9,7 @@ const Portfolio = () => {
   <div className={styles.container}>
     <div className={styles.head}>
         <h1 className={styles.title}>ポートフォリオ</h1>
-        <h2 className={styles.com}>頑張って作った作品たちです</h2>
+        <h2 className={styles.com}>頑張って作った作品たちです、<br />TypeScriptを使って作ったもののみ表示しています</h2>
     </div>
     <div className={styles.box1}>
       <div className={styles.imgholder}></div>
