@@ -15,10 +15,10 @@ import Image from 'next/image';
 const Skills = () => {
   return (
     <div className={styles.base}>
-        <div>Skill Set</div>
-        <div>2023年9月現在</div>
-        <div>プログラミング言語</div>
-        <div>フロントエンド</div>
+        <div className={styles.title}>Skill Set</div>
+        <div className={styles.subtitle}>2023年9月現在</div>
+        <div className={styles.titles}>プログラミング言語</div>
+        <div className={styles.subtitles}>フロントエンド</div>
         <div className={styles.skill}>
             {/* 言語のアイコン */}
             <div className={styles.skill1}>
@@ -46,7 +46,7 @@ const Skills = () => {
                 <Image src={ocaml} alt="Ocaml" className={styles.now} width={50} height={50} />
             </div>
         </div>
-        <div>フロントエンド</div>
+        <div className={styles.subtitles}>フロントエンド</div>
         <div className={styles.skill}>
             {/* 言語のアイコン */}
             <div className={styles.skill1}>
@@ -59,7 +59,7 @@ const Skills = () => {
                 <div>HTML</div>
             </div>
         </div>
-        <div>フロントエンド</div>
+        <div className={styles.subtitles}>フロントエンド</div>
         <div className={styles.skill}>
             {/* 言語のアイコン */}
             <div className={styles.skill1}>
@@ -72,7 +72,7 @@ const Skills = () => {
                 <div>HTML</div>
             </div>
         </div>
-        <div>フロントエンド</div>
+        <div className={styles.subtitles}>フロントエンド</div>
         <div className={styles.skill}>
             {/* 言語のアイコン */}
             <div className={styles.skill1}>
@@ -85,7 +85,7 @@ const Skills = () => {
                 <div>HTML</div>
             </div>
         </div>
-        <div>フロントエンド</div>
+        <div className={styles.subtitles}>フロントエンド</div>
         <div className={styles.skill}>
             {/* 言語のアイコン */}
             <div className={styles.skill1}>
