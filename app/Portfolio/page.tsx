@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './css/OnlineOthello.module.css';
+import styles from './css/Portfolio.module.css';
 import Header from '../components/Header';
 import Link from 'next/link';
 import Image from 'next/image';
