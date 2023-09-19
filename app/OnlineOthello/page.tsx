@@ -13,7 +13,9 @@ const OnlineOthello = () => {
         <div className={styles.content}>
           <div className={styles.photo}>画像</div>
           <div className={styles.title}>
+            <Link href="../#portfolio">
             <span style={{ color: "#000000" }}>Portfolio</span>
+            </Link>
               &gt; オンラインオセロ</div>
           <div className={styles.len}>
             <div className={styles.skill}>TypeScript</div>

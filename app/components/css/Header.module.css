@@ -20,3 +20,9 @@
     flex-direction: row;
     gap:20px;
 }
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+}

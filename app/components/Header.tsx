@@ -7,21 +7,26 @@ import styles from './css/Header.module.css';
 const Header = () => {
   return (
     <nav className={styles.main}>
-        <div>
+        <Link href="/">
+        <div className={styles.title}>
             ポートフォリオ
         </div>
+        </Link>
         <div className={styles.liall}>
             <Link href="/">
                 <div>Home</div>
             </Link>
-            <Link href="/about">
+            <Link href="/#about">
                 <div>About</div>
             </Link>
-            <Link href="/about">
-                <div>lick</div>
+            <Link href="/#portfolio">
+                <div>Portfolio</div>
             </Link>
-            <Link href="/about">
-                <div>god</div>
+            <Link href="/#skill">
+                <div>Skill</div>
+            </Link>
+            <Link href="/#team">
+                <div>Team</div>
             </Link>
         </div>
     </nav>
