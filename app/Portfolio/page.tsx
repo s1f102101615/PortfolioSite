@@ -14,7 +14,7 @@ const Portfolio = () => {
           <div className={styles.photo}>画像</div>
           <div className={styles.title}>
             <span style={{ color: "#000000" }}>Portfolio</span>
-              &gt; オンラインオセロ</div>
+              &gt; ポートフォリオサイト</div>
           <div className={styles.len}>
             <div className={styles.skill}>TypeScript</div>
             <div className={styles.skill}>React</div>
@@ -25,19 +25,15 @@ const Portfolio = () => {
             <div className={styles.skill}>Firebase</div>
             <div className={styles.skill}>Docker</div>
           </div>
-          <div className={styles.detail}>オンラインで2人のプレイヤーが対戦出来るWebサービスです。
-            ログイン後、ロビーを作成することができ、ルームに2人のプレイヤーが集まると、ゲームが開始されます。
-            クイックマッチで素早く対戦可能。他人の対戦も観戦することができます。
+          <div className={styles.detail}>現在閲覧いただいているこのサイトです。とても見やすいサイトを目指しました。
           </div>
           <div className={styles.title2} style={{ color: "#000000" }}>開発動機</div>
           <div className={styles.detail}>
-            ほぼ初めてのバックエンドが存在する開発経験で、リアルタイムでオンライン機能を追加する事を目標に作成をしました。
-            リアルタイムが故のバグも多く、修正に苦労しましたがとても勉強になりました。
-            また、オセロのアルゴリズム作成も勉強になりました。
+            このサイトは、Next.jsを使って作成しています。自分のこれまで作ってきたものをまとめるために作成しました。
           </div>
           <div className={styles.len2}>
             <div className={styles.skill}>Source</div>
-            <Link href="https://github.com/s1f102101615/network-othello" className={styles.skilltext}>Github</Link>
+            <Link href="https://github.com/s1f102101615/PortfolioSite" className={styles.skilltext}>Github</Link>
             <Image src={externallink} alt="externallink" width={20} height={20} />
           </div>
           <div className={styles.under} ></div>

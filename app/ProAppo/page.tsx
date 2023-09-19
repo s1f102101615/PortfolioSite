@@ -13,8 +13,10 @@ const ProAppo = () => {
         <div className={styles.content}>
           <div className={styles.photo}>画像</div>
           <div className={styles.title}>
+            <Link href="../">
             <span style={{ color: "#000000" }}>Portfolio</span>
-              &gt; オンラインオセロ</div>
+            </Link>
+              &gt; ProAppo</div>
           <div className={styles.len}>
             <div className={styles.skill}>TypeScript</div>
             <div className={styles.skill}>React</div>
@@ -25,19 +27,20 @@ const ProAppo = () => {
             <div className={styles.skill}>Firebase</div>
             <div className={styles.skill}>Docker</div>
           </div>
-          <div className={styles.detail}>オンラインで2人のプレイヤーが対戦出来るWebサービスです。
-            ログイン後、ロビーを作成することができ、ルームに2人のプレイヤーが集まると、ゲームが開始されます。
-            クイックマッチで素早く対戦可能。他人の対戦も観戦することができます。
+          <div className={styles.detail}>ProAppoはユーザー間で約束の設定をすると、お互いのお手持ちのカレンダーに約束が追加されます。
+複数人での約束の共有に便利です。React-Nativeを使って作成している為、iOS,Android両方で動作します。
           </div>
           <div className={styles.title2} style={{ color: "#000000" }}>開発動機</div>
           <div className={styles.detail}>
-            ほぼ初めてのバックエンドが存在する開発経験で、リアルタイムでオンライン機能を追加する事を目標に作成をしました。
-            リアルタイムが故のバグも多く、修正に苦労しましたがとても勉強になりました。
-            また、オセロのアルゴリズム作成も勉強になりました。
+          約束をアプリ内で交わし、お互いのカレンダーアプリに予定が入るようなアプリです。
+          SNSではよくある様なQRでの友達追加機能や、地図から集合場所を設定し、マップでナビゲート、
+          約束事に存在するトークルームなどを機能として追加しています。初めてのスマホアプリ作成だったのですが、
+          使用感や見た目は企業レベルに作成できたと思います。<br />
+          (細かい仕様はGithubリンク先のREADMEをお読みください。)
           </div>
           <div className={styles.len2}>
             <div className={styles.skill}>Source</div>
-            <Link href="https://github.com/s1f102101615/network-othello" className={styles.skilltext}>Github</Link>
+            <Link href="https://github.com/s1f102101615/Re-again" className={styles.skilltext}>Github</Link>
             <Image src={externallink} alt="externallink" width={20} height={20} />
           </div>
           <div className={styles.under} ></div>
