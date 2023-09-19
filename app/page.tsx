@@ -5,6 +5,7 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Skills from './components/Skills';
 import Teams from './components/Teams';
+import End from './components/End';
 
 
 const Home = () => {
@@ -24,7 +25,8 @@ const Home = () => {
       <div id="team">
       <Teams></Teams>
       </div>
-    </div>
+      <End></End>
+      </div>
   );
 };
 
