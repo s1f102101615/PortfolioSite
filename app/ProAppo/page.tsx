@@ -20,12 +20,12 @@ const ProAppo = () => {
           <div className={styles.len}>
             <div className={styles.skill}>TypeScript</div>
             <div className={styles.skill}>React</div>
-            <div className={styles.skill}>Next.js</div>
-            <div className={styles.skill}>Node.js</div>
-            <div className={styles.skill}>PostgreSQL</div>
-            <div className={styles.skill}>Frourio</div>
+            <div className={styles.skill}>ReactNative</div>
+            <div className={styles.skill}>Expo</div>
             <div className={styles.skill}>Firebase</div>
-            <div className={styles.skill}>Docker</div>
+            <div className={styles.skill}>FireStorage</div>
+            <div className={styles.skill}>Cloud Firestore</div>
+
           </div>
           <div className={styles.detail}>ProAppoはユーザー間で約束の設定をすると、お互いのお手持ちのカレンダーに約束が追加されます。
 複数人での約束の共有に便利です。React-Nativeを使って作成している為、iOS,Android両方で動作します。
@@ -36,6 +36,7 @@ const ProAppo = () => {
           SNSではよくある様なQRでの友達追加機能や、地図から集合場所を設定し、マップでナビゲート、
           約束事に存在するトークルームなどを機能として追加しています。初めてのスマホアプリ作成だったのですが、
           使用感や見た目は企業レベルに作成できたと思います。<br />
+          DBはFireStorageを使っています。
           (細かい仕様はGithubリンク先のREADMEをお読みください。)
           </div>
           <div className={styles.len2}>

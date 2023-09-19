@@ -24,6 +24,9 @@ const Contact = () => {
             <div className={styles.skill}>Frourio</div>
             <div className={styles.skill}>Firebase</div>
             <div className={styles.skill}>Docker</div>
+            <div className={styles.skill}>Fastify</div>
+            <div className={styles.skill}>Notios</div>
+            <div className={styles.skill}>Prisma</div>
           </div>
           <div className={styles.detail}>ログイン不要で約束の作成、約束の共有、手持ちのカレンダーへの追加がURL一つで行えるwebサービスです。
           LocalStorageを使ってログイン不要でこれまでの約束を保存することができます。ログイン後はアカウント単位で約束を保存することができます。

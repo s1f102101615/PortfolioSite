@@ -20,7 +20,6 @@ const Minesweeper = () => {
             <div className={styles.skill}>React</div>
             <div className={styles.skill}>Next.js</div>
             <div className={styles.skill}>Node.js</div>
-            <div className={styles.skill}>PostgreSQL</div>
             <div className={styles.skill}>Frourio</div>
             <div className={styles.skill}>Firebase</div>
             <div className={styles.skill}>Docker</div>

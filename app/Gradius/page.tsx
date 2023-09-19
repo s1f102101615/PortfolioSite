@@ -24,6 +24,7 @@ const Gradius = () => {
             <div className={styles.skill}>Frourio</div>
             <div className={styles.skill}>Firebase</div>
             <div className={styles.skill}>Docker</div>
+            <div className={styles.skill}>Prisma</div>
           </div>
           <div className={styles.detail}>シューティングゲームグラディウスを再現したゲームです。
             シューティングゲームの基本的な機能を実装しました。パワーアップアイテムの取得、敵の出現、敵の攻撃、

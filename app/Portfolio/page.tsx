@@ -20,10 +20,6 @@ const Portfolio = () => {
             <div className={styles.skill}>React</div>
             <div className={styles.skill}>Next.js</div>
             <div className={styles.skill}>Node.js</div>
-            <div className={styles.skill}>PostgreSQL</div>
-            <div className={styles.skill}>Frourio</div>
-            <div className={styles.skill}>Firebase</div>
-            <div className={styles.skill}>Docker</div>
           </div>
           <div className={styles.detail}>現在閲覧いただいているこのサイトです。とても見やすいサイトを目指しました。
           </div>
