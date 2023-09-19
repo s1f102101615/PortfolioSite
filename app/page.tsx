@@ -4,6 +4,8 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Skills from './components/Skills';
+import Teams from './components/Teams';
+
 
 const Home = () => {
   return (
